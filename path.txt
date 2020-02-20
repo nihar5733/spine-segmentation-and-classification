@@ -1,0 +1,2 @@
+E:/IITD offline/ELL888/Assignment 1/Training
+E:/IITD offline/ELL888/Assignment 1/TestData(XraysOnly)

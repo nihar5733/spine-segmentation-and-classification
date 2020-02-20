@@ -24,6 +24,13 @@ def loadData(dataPath):
 
 	return dataX, dataY
 
+
+path = open("../path.txt","r")
+p = path.readlines()
+trainDataPath = p[0]
+testDataPath = p[1]
+path.close()
+
 dataPath = "E:/IITD offline/ELL888/Assignment 1/Training"
 dataX, dataY = loadData(dataPath)
 print(len(dataX))
